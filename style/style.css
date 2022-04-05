@@ -3,11 +3,12 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: sans-serif;
+    font-family: helvetica, arial;
 }
 
 header, .logo {
     text-align: center;
+    margin-top: -15px;
 }
 
 
@@ -30,4 +31,51 @@ header img, .logo img{
 form {
     display: flex;
     
+    
+}
+
+.form1, .form2 {
+    margin-left: 50px;
+    
+}
+
+input, textarea, select, option {
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px #8888; 
+}
+
+input, form {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+    font-family: helvetica, arial;
+
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #8888; 
+   
+}
+
+input:hover, textarea:hover, select:hover {
+    background-color: gray;
+    color: white;
+}
+
+footer {
+    border-top: 1px solid gray;
+}
+
+q{
+    color: #555;
+    font-style: italic;
 }
