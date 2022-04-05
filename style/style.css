@@ -1,0 +1,33 @@
+body {
+    background-image: url(../images/barbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+header, .logo {
+    text-align: center;
+}
+
+
+.container{
+    background-color: #FFD63C;
+    width: 70%;
+	border-radius: 30px;
+	padding:20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+    margin: auto;
+    margin-top: -30px;
+}
+
+header img, .logo img{
+    width: 300px;
+}
+
+form {
+    display: flex;
+    
+}

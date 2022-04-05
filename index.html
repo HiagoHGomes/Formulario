@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <header>
+        <img src="images/bar.png" alt="logo bar">
+    </header>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img src="images/form.jpg" alt="">
+            </div>
+            <h1>Formulario para entrar no grupo:</h1>
+            <form action="">
+                <div class="form1">
+                    <label for="name">Insira seu nome:</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Nome Completo:" autofocus required>
+                    <br>
+                    <label for="telefone">Insira seu telefone:</label>
+                    <br>
+                    <input type="number" name="telefone" id="telefone" placeholder="DDD+Numero" required>
+                    <br>
+                    <label for="nascimento">Data de Nascimento:</label>
+                    <br>
+                    <input type="datetime" name="nascimento" id="nascimento" placeholder="DD/MM/AAAA" required>
+                    <br>
+                    <label for="adress">Endereço:</label>
+                    <br>
+                    <input type="text" name="adress" id="adress" required placeholder="Rua 123">
+                </div>
+                <div class="form2">
+                    <label for="cerveja">Cerveja Favorita:</label>
+                    <br>
+                    <select name="cerveja" id="cerveja" required>
+                        <option value="empty" selected>Clique para selecionar:</option>
+                        <option value="">Brahma</option>
+                        <option value="">Skol</option>
+                        <option value="">Budweiser</option>
+                        <option value="">Original</option>
+                        <option value="">Local</option>
+                        <option value="">Qualquer uma tando gelada</option>
+                    </select>
+                    <br>
+                    <label for="msg">Por que deveriados aceitar você? (Opcional)</label>
+                    <br>
+                    <textarea name="msg"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Apagar tudo">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
